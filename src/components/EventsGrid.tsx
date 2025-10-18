@@ -16,7 +16,7 @@ const EventsGrid = () => {
       venue: "Main Auditorium",
       price: "₹300",
       type: "Morning Raga",
-      image: ASSETS.images.eventPerformance,
+      image: ASSETS.gallery.performances.dsc1548,
       featured: true
     },
     {
@@ -29,7 +29,7 @@ const EventsGrid = () => {
       venue: "Heritage Hall",
       price: "₹500",
       type: "Solo Performance",
-      image: ASSETS.images.eventPerformance
+      image: ASSETS.gallery.performances.dsc1567
     },
     {
       id: 3,
@@ -41,7 +41,7 @@ const EventsGrid = () => {
       venue: "Open Air Theatre",
       price: "Free",
       type: "Festival",
-      image: ASSETS.images.eventPerformance,
+      image: ASSETS.gallery.events.ss2201,
       featured: true
     },
     {
@@ -54,7 +54,7 @@ const EventsGrid = () => {
       venue: "Main Auditorium",
       price: "₹750",
       type: "Collaboration",
-      image: ASSETS.images.eventPerformance
+      image: ASSETS.gallery.performances.dsc1585
     },
     {
       id: 5,
@@ -66,7 +66,7 @@ const EventsGrid = () => {
       venue: "Seminar Hall",
       price: "₹200",
       type: "Educational",
-      image: ASSETS.images.eventPerformance
+      image: ASSETS.gallery.events.ss1201
     },
     {
       id: 6,
@@ -78,7 +78,7 @@ const EventsGrid = () => {
       venue: "Heritage Hall",
       price: "₹150",
       type: "Student Performance",
-      image: ASSETS.images.eventPerformance
+      image: ASSETS.gallery.events.ss2202
     }
   ];
 
