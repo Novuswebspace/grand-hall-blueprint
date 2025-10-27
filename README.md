@@ -1,73 +1,137 @@
-# Welcome to your Lovable project
+# JSS Sangeetha Sabha - ಸಂಗೀತ ಸಂಭ್ರಮ
 
-## Project info
+## About the Project
 
-**URL**: https://lovable.dev/projects/fbfff98e-4998-4569-86fc-72b494ce3a1f
+JSS Sangeetha Sabha is a prestigious classical music institution dedicated to celebrating and preserving the rich tradition of Carnatic classical music. This website showcases our events, performances, and cultural heritage.
 
-## How can I edit this code?
+**Live Website**: https://github.com/Novuswebspace/grand-hall-blueprint
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- 🎵 **Event Management**: Browse upcoming classical music concerts and performances
+- 🏛️ **Heritage Gallery**: Explore our rich history through curated photo galleries
+- 📚 **Conference Archive**: Access past conference recordings and materials
+- 🎭 **Artist Profiles**: Learn about renowned musicians and performers
+- 📱 **Responsive Design**: Optimized for all devices
+- 🌐 **Bilingual Support**: Content in English and Kannada
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fbfff98e-4998-4569-86fc-72b494ce3a1f) and start prompting.
+## Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is built with modern web technologies:
 
-**Use your preferred IDE**
+- **Frontend**: React 18 with TypeScript
+- **Styling**: Tailwind CSS with shadcn/ui components
+- **Build Tool**: Vite
+- **Backend**: Supabase (Database & Storage)
+- **Deployment**: GitHub Pages
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js (v18 or higher)
+- npm or yarn package manager
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Novuswebspace/grand-hall-blueprint.git
+   cd grand-hall-blueprint
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+3. **Set up environment variables**
+   Create a `.env` file in the root directory:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**
+   Navigate to `http://localhost:5173`
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm run upload-assets` - Upload assets to Supabase storage
+- `npm run upload-pictures` - Upload new pictures to storage
+
+## Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── Header.tsx      # Navigation header
+│   ├── Hero.tsx        # Landing page hero section
+│   ├── EventsGrid.tsx  # Events display component
+│   └── ...
+├── pages/              # Page components
+│   ├── Index.tsx       # Home page
+│   ├── Events.tsx      # Events listing
+│   ├── Gallery.tsx     # Photo gallery
+│   └── ...
+├── lib/                # Utility functions
+│   ├── supabase.ts     # Supabase client
+│   ├── assets.ts       # Asset management
+│   └── utils.ts        # Helper functions
+├── data/               # Static data
+└── types/              # TypeScript type definitions
 ```
 
-**Edit a file directly in GitHub**
+## Contributing
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+We welcome contributions to improve the JSS Sangeetha Sabha website:
 
-**Use GitHub Codespaces**
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Cultural Heritage
 
-## What technologies are used for this project?
+JSS Sangeetha Sabha has been a cornerstone of classical music education and performance in Mysuru for decades. Our mission is to:
 
-This project is built with:
+- Preserve and promote Carnatic classical music traditions
+- Provide a platform for both established and emerging artists
+- Foster appreciation for Indian classical arts
+- Bridge traditional and contemporary musical expressions
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Contact
 
-## How can I deploy this project?
+**JSS Sangeetha Sabha**
+- Website: [JSS Sangeetha Sabha](https://github.com/Novuswebspace/grand-hall-blueprint)
+- Email: info@jsssangeethasabha.org
+- Phone: +91-XXX-XXX-XXXX
+- Address: Mysuru, Karnataka, India
 
-Simply open [Lovable](https://lovable.dev/projects/fbfff98e-4998-4569-86fc-72b494ce3a1f) and click on Share -> Publish.
+## License
 
-## Can I connect a custom domain to my Lovable project?
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Yes, you can!
+## Acknowledgments
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- JSS Mahavidyapeetha for institutional support
+- All the artists and musicians who have graced our stage
+- The classical music community of Mysuru
+- Contributors and developers who have helped build this platform
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+**ಸಂಗೀತ ಸಂಭ್ರಮ** - *Celebrating the Divine Art of Music*
